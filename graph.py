@@ -4,7 +4,7 @@ import matplotlib as mpl
 mpl.use('Agg')
 import matplotlib.pyplot as plt
 
-
+ 
 
 def application(environ, start_response):
     if environ['PATH_INFO'] == './img/graph.png':
